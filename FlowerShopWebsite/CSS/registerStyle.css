@@ -1,0 +1,70 @@
+*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		background-color:#fae3d9;
+		text-align: center; 
+	}
+	#regist{
+		width: 40%;
+		height: 70%;
+		border: 2px dashed #61c0bf;
+		margin: auto ;
+		margin-top: 80px;
+		background-color: white;
+		text-align: center;
+	}
+	#registform{
+		text-align: center;
+		width: 100%;
+	}
+	#text{
+		font-family: cursive;
+        font-size: 15px;
+        color: #61c0bf;
+	}
+	#textbox{
+		font-family: cursive;
+        font-size: 15px;
+        width: 250px;
+		height: 30px;
+		border: 2px dashed #ffb6b9;
+		outline-style: none;
+	}
+	#textbox:active{
+		border-style: none;
+		border: 2px dashed #ffb6b9;
+		outline-style: none;
+	}
+	#textbox:hover{
+		border-style: none;
+		border: 2px dashed #ffb6b9;
+		background-color:  #bbded6;
+		outline-style: none;
+	}
+	#stable{
+		width: 100%;
+		text-align: center;
+		border:2px solid #61c0bf;
+		background-color:  #fae3d9;
+		border-radius: 20%;
+	} 
+	#address{
+		font-family: cursive;
+        font-style: italic;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+	}
+	#submit{
+		width: 300px;
+		height: 40px;
+		border:3px dashed #ffb6b9;
+		background-color:  #bbded6;
+		font-family: cursive;
+        font-style: italic;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 40%;
+	}
